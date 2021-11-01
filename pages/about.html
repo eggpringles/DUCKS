@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ABOUT</title>
+        <script>
+            function quackSound() {
+                var quack= new Audio("../quack_noise.mp3");
+                quack.play();
+            }
+        </script>
+        
+        <link rel="stylesheet" href="../main_style.css">
+        
+    </head> 
+        <body>
+            <header>
+               <h1 class=about>About</h1>           
+               <button onclick="quackSound()" class = quack>
+                   <img src="../logo.png" width="125" height="125">
+               </button>
+               
+               <nav>
+                   <ul class=nav-link>
+                       <li><a href="../index.html">HOME</a>
+                       </li>
+                       <li><a href="about.html">ABOUT</a>
+                        </li>
+                       <li><a href="contact.html">CONTACT</a>                           
+                       </li>
+                   </ul>
+               </nav>
+            </header>
+
+            <section class=about-site>
+                <p> mmm <br> ducks</p>
+            </section>
+
+           
+         
+        </body>
+</html>

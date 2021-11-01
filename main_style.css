@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    background: rgba(247, 187, 58, 0.849);
+    margin: 0;
+    padding: 0;
+    animation: fadeInAnimation ease 0.8s;
+    animation-iteration-count: 0.5;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+header {
+    
+    padding: 10px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;                
+}
+
+header h1 {
+    font-size: 65px;
+    color: white;
+    margin-left: 25px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 12px;
+
+}
+
+button.quack img {
+    transition: transform 1s;
+}
+
+button.quack img:hover {
+    transform: rotate(360deg);
+}
+
+nav {
+    padding: auto;
+    display: block;
+    margin-left: auto;    
+}
+
+ul {
+    margin-left: auto;  
+    margin-right: 35px;              
+}
+
+li {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+ul.nav-link a {
+    text-decoration: none;
+    padding: 20px 20px;    
+    font-size: 25px;  
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;          
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+section.title {
+    text-align: center; 
+    color: white;
+    margin-top: 0
+
+}
+
+ul.nav-link li a:hover {
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    background: rgba(212, 163, 57, 0.849);
+}
+
+
+section.title p {
+    margin-top: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+}
+
+section.ducks {
+    display: flex;
+}
+
+
+section.ducks ul {
+    margin: auto;
+    text-align: center;
+
+}
+
+
+
+section.ducks ul li p {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+
+a img {
+    border-radius: 30%;
+}
+
+section.about-site p {
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+section.contact-info {
+    text-align: center;
+    padding: 95px;    
+    margin-top: 125px;
+}
+
+section.contact-info a { 
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 75px;
+    text-decoration: none;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+section.contact-info a:hover {
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    background-color: rgba(212, 163, 57, 0.849);
+}
